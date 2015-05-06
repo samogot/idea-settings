@@ -1,7 +1,7 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="File 'D:\Documents\RuRanobe\ruranobe.ru\src\main\webapp\css\rura_styles.css'" />
-    <option name="defaultScopeName" value="File 'D:\Documents\RuRanobe\ruranobe.ru\src\main\webapp\css\rura_styles.css'" />
-    <option name="SEARCH_SCOPE" value="File 'D:\Documents\RuRanobe\ruranobe.ru\src\main\webapp\css\rura_styles.css'" />
+    <option name="customScope" value="File 'D:\Documents\RuRanobe\ruranobe.ru\src\main\java\ru\ruranobe\mybatis\tables\Project.java'" />
+    <option name="defaultScopeName" value="File 'D:\Documents\RuRanobe\ruranobe.ru\src\main\java\ru\ruranobe\mybatis\tables\Project.java'" />
+    <option name="SEARCH_SCOPE" value="File 'D:\Documents\RuRanobe\ruranobe.ru\src\main\java\ru\ruranobe\mybatis\tables\Project.java'" />
   </component>
 </application>
