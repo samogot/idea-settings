@@ -1,11 +1,13 @@
 <application>
   <component name="XDebuggerSettings">
     <data-views />
-    <general />
+    <general>
+      <option name="hideDebuggerOnProcessTermination" value="true" />
+    </general>
     <debuggers>
-      <debugger id="javascript">
+      <debugger id="ObjectiveC">
         <configuration>
-          <custom-object-presentation />
+          <option name="RENDERERS_ENABLED" value="false" />
         </configuration>
       </debugger>
     </debuggers>
