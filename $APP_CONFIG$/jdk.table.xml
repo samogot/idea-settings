@@ -1,10 +1,10 @@
 <application>
   <component name="ProjectJdkTable">
     <jdk version="2">
-      <name value="1.7" />
+      <name value="1.8" />
       <type value="JavaSDK" />
-      <version value="java version &quot;1.7.0_79&quot;" />
-      <homePath value="/usr/lib/jvm/java-7-openjdk-amd64" />
+      <version value="java version &quot;1.8.0_45&quot;" />
+      <homePath value="C:/Program Files/Java/jdk1.8.0_45" />
       <roots>
         <annotationsPath>
           <root type="composite">
@@ -13,31 +13,39 @@
         </annotationsPath>
         <classPath>
           <root type="composite">
-            <root type="simple" url="jar:///usr/lib/jvm/java-7-openjdk-amd64/jre/lib/management-agent.jar!/" />
-            <root type="simple" url="jar:///usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rhino.jar!/" />
-            <root type="simple" url="jar:///usr/lib/jvm/java-7-openjdk-amd64/jre/lib/charsets.jar!/" />
-            <root type="simple" url="jar:///usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jsse.jar!/" />
-            <root type="simple" url="jar:///usr/lib/jvm/java-7-openjdk-amd64/jre/lib/compilefontconfig.jar!/" />
-            <root type="simple" url="jar:///usr/lib/jvm/java-7-openjdk-amd64/jre/lib/resources.jar!/" />
-            <root type="simple" url="jar:///usr/lib/jvm/java-7-openjdk-amd64/jre/lib/javazic.jar!/" />
-            <root type="simple" url="jar:///usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jce.jar!/" />
-            <root type="simple" url="jar:///usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar!/" />
-            <root type="simple" url="jar:///usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/java-atk-wrapper.jar!/" />
-            <root type="simple" url="jar:///usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/icedtea-sound.jar!/" />
-            <root type="simple" url="jar:///usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/localedata.jar!/" />
-            <root type="simple" url="jar:///usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/sunpkcs11.jar!/" />
-            <root type="simple" url="jar:///usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/dnsns.jar!/" />
-            <root type="simple" url="jar:///usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/zipfs.jar!/" />
-            <root type="simple" url="jar:///usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/sunjce_provider.jar!/" />
+            <root type="simple" url="jar://C:/Program Files/Java/jdk1.8.0_45/jre/lib/charsets.jar!/" />
+            <root type="simple" url="jar://C:/Program Files/Java/jdk1.8.0_45/jre/lib/deploy.jar!/" />
+            <root type="simple" url="jar://C:/Program Files/Java/jdk1.8.0_45/jre/lib/javaws.jar!/" />
+            <root type="simple" url="jar://C:/Program Files/Java/jdk1.8.0_45/jre/lib/jce.jar!/" />
+            <root type="simple" url="jar://C:/Program Files/Java/jdk1.8.0_45/jre/lib/jfr.jar!/" />
+            <root type="simple" url="jar://C:/Program Files/Java/jdk1.8.0_45/jre/lib/jfxswt.jar!/" />
+            <root type="simple" url="jar://C:/Program Files/Java/jdk1.8.0_45/jre/lib/jsse.jar!/" />
+            <root type="simple" url="jar://C:/Program Files/Java/jdk1.8.0_45/jre/lib/management-agent.jar!/" />
+            <root type="simple" url="jar://C:/Program Files/Java/jdk1.8.0_45/jre/lib/plugin.jar!/" />
+            <root type="simple" url="jar://C:/Program Files/Java/jdk1.8.0_45/jre/lib/resources.jar!/" />
+            <root type="simple" url="jar://C:/Program Files/Java/jdk1.8.0_45/jre/lib/rt.jar!/" />
+            <root type="simple" url="jar://C:/Program Files/Java/jdk1.8.0_45/jre/lib/ext/access-bridge-64.jar!/" />
+            <root type="simple" url="jar://C:/Program Files/Java/jdk1.8.0_45/jre/lib/ext/cldrdata.jar!/" />
+            <root type="simple" url="jar://C:/Program Files/Java/jdk1.8.0_45/jre/lib/ext/dnsns.jar!/" />
+            <root type="simple" url="jar://C:/Program Files/Java/jdk1.8.0_45/jre/lib/ext/jaccess.jar!/" />
+            <root type="simple" url="jar://C:/Program Files/Java/jdk1.8.0_45/jre/lib/ext/jfxrt.jar!/" />
+            <root type="simple" url="jar://C:/Program Files/Java/jdk1.8.0_45/jre/lib/ext/localedata.jar!/" />
+            <root type="simple" url="jar://C:/Program Files/Java/jdk1.8.0_45/jre/lib/ext/nashorn.jar!/" />
+            <root type="simple" url="jar://C:/Program Files/Java/jdk1.8.0_45/jre/lib/ext/sunec.jar!/" />
+            <root type="simple" url="jar://C:/Program Files/Java/jdk1.8.0_45/jre/lib/ext/sunjce_provider.jar!/" />
+            <root type="simple" url="jar://C:/Program Files/Java/jdk1.8.0_45/jre/lib/ext/sunmscapi.jar!/" />
+            <root type="simple" url="jar://C:/Program Files/Java/jdk1.8.0_45/jre/lib/ext/sunpkcs11.jar!/" />
+            <root type="simple" url="jar://C:/Program Files/Java/jdk1.8.0_45/jre/lib/ext/zipfs.jar!/" />
           </root>
         </classPath>
         <javadocPath>
-          <root type="composite">
-            <root type="simple" url="http://docs.oracle.com/javafx/2/api/" />
-          </root>
+          <root type="composite" />
         </javadocPath>
         <sourcePath>
-          <root type="composite" />
+          <root type="composite">
+            <root type="simple" url="jar://C:/Program Files/Java/jdk1.8.0_45/src.zip!/" />
+            <root type="simple" url="jar://C:/Program Files/Java/jdk1.8.0_45/javafx-src.zip!/" />
+          </root>
         </sourcePath>
       </roots>
       <additional />
