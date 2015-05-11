@@ -4,7 +4,11 @@
     <option name="HEX_COLOR_SHORT_FORMAT" value="true" />
   </CssCodeStyleSettings>
   <SqlCodeStyleSettings>
+    <option name="NEW_LINE_BEFORE_FROM" value="false" />
+    <option name="NEW_LINE_BEFORE_WHERE" value="false" />
+    <option name="NEW_LINE_BEFORE_OTHER_CLAUSES" value="false" />
     <option name="NEW_LINE_BEFORE_QUERY_INSIDE_DML" value="true" />
+    <option name="QUOTE_IDENTIFIER" value="1" />
   </SqlCodeStyleSettings>
   <XML>
     <option name="XML_LEGACY_SETTINGS_IMPORTED" value="true" />
@@ -15,5 +19,8 @@
     <option name="METHOD_BRACE_STYLE" value="2" />
     <option name="ALIGN_MULTILINE_BINARY_OPERATION" value="true" />
     <option name="ALIGN_MULTILINE_TERNARY_OPERATION" value="true" />
+  </codeStyleSettings>
+  <codeStyleSettings language="SQL">
+    <option name="KEEP_FIRST_COLUMN_COMMENT" value="true" />
   </codeStyleSettings>
 </code_scheme>
