@@ -1,0 +1,208 @@
+Index: math/journey.hpp
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- math/journey.hpp	(date 1431597909000)
++++ math/journey.hpp	(revision )
+@@ -127,7 +127,7 @@
+ 
+     void insertChainIntoNewTour(size_t tour_index, Chain *&chain, EstimateJourneyHeap &heap);
+ 
+-    vector<Chain *> findPerimeter(Core *core);
++//    vector<Chain *> findPerimeter(Core *core);
+ 
+     void insertCorePerimeterIntoTour(size_t tour_index, Core *core, vector<Chain *> &perimetr,
+                                      EstimateJourneyHeap &heap);
+Index: math/journey.cpp
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- math/journey.cpp	(date 1431597909000)
++++ math/journey.cpp	(revision )
+@@ -193,6 +193,7 @@
+     heap.push(move(templateJourney));
+ }
+ 
++/*
+ float vectprod(Chain *a, Chain *b, Chain *c) {
+     const auto &A = *a->getOutPlace()->point;
+     const auto &B = *b->getInPlace()->point;
+@@ -240,7 +241,7 @@
+     }
+     return tour;
+ }
+-
++*/
+ void Journey::insertCorePerimeterIntoTour(size_t tour_index, Core *core, vector<Chain *> &perimetr,
+                                           EstimateJourneyHeap &heap) {
+     EstimateJourney templateJourney;
+Index: math/core.hpp
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- math/core.hpp	(date 1431597909000)
++++ math/core.hpp	(revision )
+@@ -3,20 +3,22 @@
+ 
+ #include "common_header.hpp"
+ #include "chain.hpp"
++#include "graph.hpp"
+ 
+-typedef boost::range_detail::filtered_range<std::function<bool(Chain*)>, const std::set<Chain*> > FilteredChainSet;
++typedef boost::range_detail::filtered_range<std::function<bool(Chain *)>, const std::set<Chain *> > FilteredChainSet;
+-class Core : private boost::noncopyable
+-{
++
++class Core : private boost::noncopyable {
+     bool attended;
+     set<Chain *> inners, tails;
+ 
+ public:
+     unsigned index;
++    vector<Chain *> perimeter;
++    vector<OnedirChain *> perimeter_chains;
+ 
+     Core(unsigned index = 0) : attended(false), index(index) { }
+ 
+-    void insertInner(Chain *inner)
+-    {
++    void insertInner(Chain *inner) {
+         tails.insert(inner);
+         inners.insert(inner);
+     }
+@@ -32,25 +34,35 @@
+     const set<Chain *> &getInnersWithAllTails() const { return tails; }
+ 
+     FilteredChainSet getTails() const;
++
+     FilteredChainSet getCrossTails() const;
++
+     FilteredChainSet getInnersWithObligateTails() const;
++
+     FilteredChainSet getInnersWithObligateTailsWithAttendance(Journey *journey) const;
++
+     FilteredChainSet getObligateTails() const;
++
+     FilteredChainSet getObligateTailsWithAttendance(Journey *journey) const;
++
+     FilteredChainSet getObligateTailsWithAttendance() const;
+ 
+-    void attend(bool flag = true) { attended = flag; }
++    inline void attend(bool flag = true) { attended = flag; }
+ 
+-    bool isAttended() const { return attended; }
++    inline bool isAttended() const { return attended; }
+ 
+-    string toString();
++    inline vector<Chain *> &getPerimeter() { return perimeter; }
+ 
+-//    string toString() { return boost::lexical_cast<string>(index); }
++    inline vector<OnedirChain *> &getPerimeterChains() { return perimeter_chains; }
+ 
++    void init();
+ 
++    void findPerimeter(matrix &time_matrix, Graph<Chain *> graph, Depot *startingDepot);
++
++    string toString();
++
+     template<class Archive>
+-    void serialize(Archive &archive)
+-    {
++    void serialize(Archive &archive) {
+         archive(CEREAL_NVP(index),
+                 CEREAL_NVP(attended),
+                 CEREAL_NVP(inners),
+@@ -63,22 +75,21 @@
+ template<class Archive>
+ unsigned save_minimal(
+         Archive const &,
+-        Core *const &md)
+-{
++        Core *const &md) {
+     return md->index;
+ }
+ 
+ template<class Archive>
+ void load_minimal(Archive const &,
+                   Core *&md,
+-                  unsigned const &value)
+-{
++                  unsigned const &value) {
+     md = nullptr;
+ }
+ 
+ namespace cereal {
+     template<class Archive>
+-    struct specialize<Archive, Core *, cereal::specialization::non_member_load_save_minimal> { };
++    struct specialize<Archive, Core *, cereal::specialization::non_member_load_save_minimal> {
++    };
+ }
+ 
+ #endif
+Index: math/core.cpp
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- math/core.cpp	(date 1431597909000)
++++ math/core.cpp	(revision )
+@@ -77,3 +77,56 @@
+     out << " )";
+     return out.str();
+ }
++
++float vectprod(Chain *a, Chain *b, Chain *c) {
++    const auto &A = *a->getOutPlace()->point;
++    const auto &B = *b->getInPlace()->point;
++    const auto &C = *c->getInPlace()->point;
++    return (float) ((B.lat - A.lat) * (C.lon - B.lon) - (B.lon - A.lon) * (C.lat - B.lat));
++}
++
++void Core::findPerimeter(matrix &time_matrix, Graph<Chain *> &graph, Depot *startingDepot) {
++    SpecialChain depot(startingDepot);
++    Chain *cur_node = *boost::min_element(inners,
++                                          [&](Chain *l, Chain *r) {
++                                              return depot.to(time_matrix, l) < depot.to(time_matrix, r);
++                                          });
++    Core *core = this;
++    Chain *prev_node = &depot;
++    unordered_set<pair<Chain *, Chain *>, boost::hash<pair<Chain *, Chain * >>> attended_edges;
++    unordered_set<Chain *> attended_nodes;
++    perimeter.clear();
++    attended_nodes.insert(cur_node);
++    perimeter.push_back(cur_node);
++    while (true) {
++        ChainRange rng =
++                graph.forward(cur_node) | filtered(make_function([core](Chain *ch) { return ch->isInner(core); }));
++        if (rng.empty()) break;
++        Chain *next = rng.front();
++        bool leftmost = vectprod(prev_node, cur_node, next) < 0;
++        for (Chain *i : rng.advance_begin(1)) {
++            if (!leftmost && vectprod(prev_node, cur_node, i) < 0) {
++                next = i;
++                leftmost = true;
++            }
++            else if (i != prev_node && vectprod(cur_node, next, i) < 0 &&
++                     (!leftmost || vectprod(prev_node, cur_node, i) < 0))
++                next = i;
++        }
++        prev_node = cur_node;
++        cur_node = next;
++        auto cur_edge = make_pair(prev_node, cur_node);
++        if (attended_edges.find(cur_edge) == attended_edges.end())
++            attended_edges.insert(cur_edge);
++        else break;
++        if (attended_nodes.find(cur_node) == attended_nodes.end()) {
++            attended_nodes.insert(cur_node);
++            perimeter.push_back(cur_node);
++        }
++    }
++}
++
++void Core::init(matrix &time_matrix, Graph<Chain *> &graph, Depot *startingDepot) {
++    findPerimeter
++
++}
