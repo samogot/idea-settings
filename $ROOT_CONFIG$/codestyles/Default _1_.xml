@@ -3,6 +3,10 @@
     <option name="HEX_COLOR_UPPER_CASE" value="true" />
     <option name="HEX_COLOR_SHORT_FORMAT" value="true" />
   </CssCodeStyleSettings>
+  <Objective-C>
+    <option name="INTRODUCE_STATIC_CONSTS" value="false" />
+    <option name="INTRODUCE_GLOBALS_TO_HEADER" value="false" />
+  </Objective-C>
   <Objective-C-extensions>
     <option name="GENERATE_INSTANCE_VARIABLES_FOR_PROPERTIES" value="ASK" />
     <option name="RELEASE_STYLE" value="IVAR" />
