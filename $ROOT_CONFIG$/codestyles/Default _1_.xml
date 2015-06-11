@@ -4,6 +4,8 @@
     <option name="HEX_COLOR_SHORT_FORMAT" value="true" />
   </CssCodeStyleSettings>
   <Objective-C>
+    <option name="INTRODUCE_CONST_VARS" value="true" />
+    <option name="INTRODUCE_AUTO_VARS" value="true" />
     <option name="INTRODUCE_STATIC_CONSTS" value="false" />
     <option name="INTRODUCE_GLOBALS_TO_HEADER" value="false" />
   </Objective-C>
