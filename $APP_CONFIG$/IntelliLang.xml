@@ -5,5 +5,10 @@
     <option name="PATTERN_ANNOTATION" value="org.intellij.lang.annotations.Pattern" />
     <option name="SUBST_ANNOTATION" value="org.intellij.lang.annotations.Subst" />
     <option name="RESOLVE_REFERENCES" value="true" />
+    <injection language="SQL" injector-id="xml">
+      <display-name>sql|select|insert|update|delete|statement</display-name>
+      <place><![CDATA[xmlTag().withLocalName(string().oneOf("sql", "select", "insert", "update", "delete", "statement")).withNamespace(string().equalTo("http://mybatis.org/dtd/mybatis-3-mapper.dtd"))]]></place>
+      <apply-to-subtags />
+    </injection>
   </component>
 </application>

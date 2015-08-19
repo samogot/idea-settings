@@ -1,5 +1,5 @@
 <application>
-  <component name="IgnoreSettings" missingGitignore="true" donationShown="1.1" ignoredFileStatus="true" outerIgnoreRules="true" settingsFixed="true">
+  <component name="IgnoreSettings" missingGitignore="true" ignoredFileStatus="true" outerIgnoreRules="true" settingsFixed="true">
     <languages>
       <language id="Bazaar" ENABLE="true" NEW_FILE="true" />
       <language id="Chef" ENABLE="false" NEW_FILE="true" />
