@@ -1,6 +1,5 @@
 <keymap version="1" name="Visual Studio copy" parent="Visual Studio">
   <action id="EvaluateExpression">
-    <keyboard-shortcut first-keystroke="alt F8" />
     <keyboard-shortcut first-keystroke="shift control F9" />
   </action>
   <action id="SwitchApply">
