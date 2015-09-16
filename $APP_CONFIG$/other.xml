@@ -5,6 +5,9 @@
     <option name="specifiedGDBExecutablePath" value="/usr/bin/gdb" />
     <option name="useBundledCMake" value="false" />
   </component>
+  <component name="OCNewClassSettings">
+    <option name="mySkipAddingToTheProject" value="true" />
+  </component>
   <component name="TeamCityHistory">
     <option name="HISTORY" value="" />
   </component>
