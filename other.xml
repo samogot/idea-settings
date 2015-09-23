@@ -58,7 +58,7 @@
     </filter>
   </component>
   <component name="RefactoringSettings">
-    <option name="INTRODUCE_LOCAL_CREATE_FINALS" value="false" />
+    <option name="INTRODUCE_FIELD_VISIBILITY" value="private" />
   </component>
   <component name="TeamCityHistory">
     <option name="HISTORY" value="" />
