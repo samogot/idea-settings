@@ -4,6 +4,7 @@
     <option name="specifiedCMakeExecutablePath" value="/usr/bin/cmake" />
     <option name="specifiedGDBExecutablePath" value="/usr/bin/gdb" />
     <option name="useBundledCMake" value="false" />
+    <option name="useBundledGDB" value="false" />
   </component>
   <component name="TeamCityHistory">
     <option name="HISTORY" value="" />
