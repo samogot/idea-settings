@@ -6,6 +6,11 @@
     <option name="useBundledCMake" value="false" />
     <option name="useBundledGDB" value="false" />
   </component>
+  <component name="DBNavigator.Application.Settings">
+    <enable-debug-mode value="false" />
+    <enable-developer-mode value="false" />
+    <show-plugin-conflict-dialog value="false" />
+  </component>
   <component name="OCNewClassSettings">
     <option name="mySkipAddingToTheProject" value="true" />
   </component>
