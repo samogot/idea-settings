@@ -4,6 +4,12 @@
     <option name="specifiedCMakeExecutablePath" value="/usr/bin/cmake" />
     <option name="specifiedGDBExecutablePath" value="/usr/bin/gdb" />
     <option name="useBundledCMake" value="false" />
+    <option name="useBundledGDB" value="false" />
+  </component>
+  <component name="DBNavigator.Application.Settings">
+    <enable-debug-mode value="false" />
+    <enable-developer-mode value="false" />
+    <show-plugin-conflict-dialog value="false" />
   </component>
   <component name="DebuggerSettings">
     <option name="TRACING_FILTERS_ENABLED" value="true" />
@@ -57,8 +63,8 @@
       <option name="ENABLED" value="true" />
     </filter>
   </component>
-  <component name="RefactoringSettings">
-    <option name="INTRODUCE_FIELD_VISIBILITY" value="private" />
+  <component name="OCNewClassSettings">
+    <option name="mySkipAddingToTheProject" value="true" />
   </component>
   <component name="TeamCityHistory">
     <option name="HISTORY" value="" />
