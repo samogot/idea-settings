@@ -1,0 +1,13 @@
+<application>
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="d0e4218c-061b-4638-9013-c433405b8c60" name="ruranobe test" url="http://ruranobe.ru:8080">
+        <fileTransfer host="ruranobe.ru" port="21" rootFolder="/tomcat" password="dfdadf93dfe7dfd9dffbdf9bdf9ddfeb" username="ruranobe">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</application>
