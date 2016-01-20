@@ -3,15 +3,11 @@
     <option name="visitedUrls">
       <list>
         <UrlAndUserName>
-          <option name="url" value="git@bitbucket.org:samogot/mathserver.git" />
-          <option name="userName" value="" />
-        </UrlAndUserName>
-        <UrlAndUserName>
-          <option name="url" value="ssh://git@bitbucket.org:samogot/mathserver.git" />
+          <option name="url" value="git@github.com:samogot/rura-srv.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="$USER_HOME$/ClionProjects" />
+    <option name="cloneParentDir" value="$USER_HOME$/IDEAProjects" />
   </component>
 </application>
