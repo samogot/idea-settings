@@ -1,12 +1,4 @@
 <application>
-  <component name="CPPToolchains">
-    <option name="detectedVersion" value="3" />
-  </component>
-  <component name="DBNavigator.Application.Settings">
-    <enable-debug-mode value="false" />
-    <enable-developer-mode value="false" />
-    <show-plugin-conflict-dialog value="false" />
-  </component>
   <component name="DebuggerSettings">
     <option name="TRACING_FILTERS_ENABLED" value="true" />
     <option name="FORCE_CLASSIC_VM" value="true" />
@@ -58,14 +50,12 @@
       <option name="PATTERN" value="org.springsource.loaded.*" />
       <option name="ENABLED" value="true" />
     </filter>
-  </component>
-  <component name="OCNewClassSettings">
-    <option name="mySkipAddingToTheProject" value="true" />
+    <filter>
+      <option name="PATTERN" value="kotlin.*" />
+      <option name="ENABLED" value="true" />
+    </filter>
   </component>
   <component name="RefactoringSettings">
     <option name="INTRODUCE_LOCAL_CREATE_FINALS" value="false" />
-  </component>
-  <component name="TeamCityHistory">
-    <option name="HISTORY" value="" />
   </component>
 </application>
