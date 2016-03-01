@@ -1,6 +1,7 @@
 <application>
   <component name="FileTypeManager" version="16">
     <extensionMap>
+      <mapping pattern="FilterMapper" type="XML" />
       <mapping ext="fnc" type="DBN-PSQL" />
       <mapping ext="pkb" type="DBN-PSQL" />
       <mapping ext="pkg" type="DBN-PSQL" />
