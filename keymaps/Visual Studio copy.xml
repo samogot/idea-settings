@@ -4,10 +4,14 @@
     <mouse-shortcut keystroke="button4" />
     <keyboard-shortcut first-keystroke="alt left" />
   </action>
+  <action id="CompileDirty" />
   <action id="Forward">
     <keyboard-shortcut first-keystroke="ctrl alt right" />
     <mouse-shortcut keystroke="button5" />
     <keyboard-shortcut first-keystroke="alt right" />
+  </action>
+  <action id="Maven_d2038e58Site_Server6ad87c0org.apache.maven.plugins:maven-compiler-plugin:2.5.1:compile">
+    <keyboard-shortcut first-keystroke="f7" />
   </action>
   <action id="NextTab" />
   <action id="PreviousTab" />
