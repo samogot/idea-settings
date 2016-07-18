@@ -1,8 +1,4 @@
 <code_scheme name="Wide">
-  <SqlCodeStyleSettings>
-    <option name="ALIGN_TYPE_IN_CREATE_STATEMENT" value="false" />
-    <option name="ALIGN_INSIDE_BINARY_EXPRESSION" value="false" />
-  </SqlCodeStyleSettings>
   <XML>
     <option name="XML_LEGACY_SETTINGS_IMPORTED" value="true" />
   </XML>
