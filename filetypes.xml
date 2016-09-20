@@ -1,8 +1,9 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
-      <mapping ext="bib" type="LaTeX file" />
+      <mapping ext="tex" type="PLAIN_TEXT" />
       <mapping pattern="FilterMapper" type="XML" />
+      <mapping ext="bib" type="LaTeX file" />
       <mapping ext="fnc" type="DBN-PSQL" />
       <mapping ext="pkb" type="DBN-PSQL" />
       <mapping ext="pkg" type="DBN-PSQL" />
