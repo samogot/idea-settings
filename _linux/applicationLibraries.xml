@@ -1,11 +1,6 @@
 <application>
   <component name="libraryTable">
     <library name="bootbox" type="javaScript">
-      <properties>
-        <sourceFilesUrls>
-          <item url="file://$USER_HOME$/.IntelliJIdea14/system/extLibs/http_cdnjs.cloudflare.com_ajax_libs_bootbox.js_4.4.0_bootbox.js" />
-        </sourceFilesUrls>
-      </properties>
       <CLASSES>
         <root url="file://$USER_HOME$/.IntelliJIdea14/system/extLibs/http_cdnjs.cloudflare.com_ajax_libs_bootbox.js_4.4.0_bootbox.js" />
       </CLASSES>
@@ -13,11 +8,6 @@
       <SOURCES />
     </library>
     <library name="bootstrap" type="javaScript">
-      <properties>
-        <sourceFilesUrls>
-          <item url="file://$USER_HOME$/.IntelliJIdea14/system/extLibs/http_maxcdn.bootstrapcdn.com_bootstrap_3.3.4_js_bootstrap.js" />
-        </sourceFilesUrls>
-      </properties>
       <CLASSES>
         <root url="file://$USER_HOME$/.IntelliJIdea14/system/extLibs/http_maxcdn.bootstrapcdn.com_bootstrap_3.3.4_js_bootstrap.js" />
       </CLASSES>
@@ -25,11 +15,6 @@
       <SOURCES />
     </library>
     <library name="bootstrap-datetimepicker" type="javaScript">
-      <properties>
-        <sourceFilesUrls>
-          <item url="file://$USER_HOME$/.IntelliJIdea14/system/extLibs/http_cdn.rawgit.com_Eonasdan_bootstrap-datetimepicker_020d2295534b87593f7717a9d0fd81d42faaff92_build_js_bootstrap-datetimepicker.min.js" />
-        </sourceFilesUrls>
-      </properties>
       <CLASSES>
         <root url="file://$USER_HOME$/.IntelliJIdea14/system/extLibs/http_cdn.rawgit.com_Eonasdan_bootstrap-datetimepicker_020d2295534b87593f7717a9d0fd81d42faaff92_build_js_bootstrap-datetimepicker.min.js" />
       </CLASSES>
@@ -37,11 +22,6 @@
       <SOURCES />
     </library>
     <library name="bootstrap-switch" type="javaScript">
-      <properties>
-        <sourceFilesUrls>
-          <item url="file://$USER_HOME$/.IntelliJIdea14/system/extLibs/http_cdnjs.cloudflare.com_ajax_libs_bootstrap-switch_3.3.2_js_bootstrap-switch.js" />
-        </sourceFilesUrls>
-      </properties>
       <CLASSES>
         <root url="file://$USER_HOME$/.IntelliJIdea14/system/extLibs/http_cdnjs.cloudflare.com_ajax_libs_bootstrap-switch_3.3.2_js_bootstrap-switch.js" />
       </CLASSES>
@@ -49,11 +29,6 @@
       <SOURCES />
     </library>
     <library name="canvas-to-blob" type="javaScript">
-      <properties>
-        <sourceFilesUrls>
-          <item url="file://$USER_HOME$/.IntelliJIdea14/system/extLibs/http_blueimp.github.io_JavaScript-Canvas-to-Blob_js_canvas-to-blob.js" />
-        </sourceFilesUrls>
-      </properties>
       <CLASSES>
         <root url="file://$USER_HOME$/.IntelliJIdea14/system/extLibs/http_blueimp.github.io_JavaScript-Canvas-to-Blob_js_canvas-to-blob.js" />
       </CLASSES>
@@ -64,9 +39,6 @@
       <properties>
         <option name="frameworkName" value="jQuery" />
         <option name="frameworkVersion" value="1.2." />
-        <sourceFilesUrls>
-          <item url="file://$USER_HOME$/.IntelliJIdea14/system/extLibs/http_code.jquery.com_jquery-1.11.2.js" />
-        </sourceFilesUrls>
       </properties>
       <CLASSES>
         <root url="file://$USER_HOME$/.IntelliJIdea14/system/extLibs/http_code.jquery.com_jquery-1.11.2.js" />
@@ -80,9 +52,6 @@
     <library name="jquery-ui" type="javaScript">
       <properties>
         <option name="frameworkName" value="jQuery UI" />
-        <sourceFilesUrls>
-          <item url="file://$USER_HOME$/.IntelliJIdea14/system/extLibs/http_cdnjs.cloudflare.com_ajax_libs_jqueryui_1.11.4_jquery-ui.js" />
-        </sourceFilesUrls>
       </properties>
       <CLASSES>
         <root url="file://$USER_HOME$/.IntelliJIdea14/system/extLibs/http_cdnjs.cloudflare.com_ajax_libs_jqueryui_1.11.4_jquery-ui.js" />
@@ -96,9 +65,6 @@
     <library name="jquery.resizableColumns" type="javaScript">
       <properties>
         <option name="frameworkName" value="jQuery" />
-        <sourceFilesUrls>
-          <item url="file://$USER_HOME$/.IntelliJIdea14/system/extLibs/http_cdn.rawgit.com_dobtco_jquery-resizable-columns_gh-pages_dist_jquery.resizableColumns.js" />
-        </sourceFilesUrls>
       </properties>
       <CLASSES>
         <root url="file://$USER_HOME$/.IntelliJIdea14/system/extLibs/http_cdn.rawgit.com_dobtco_jquery-resizable-columns_gh-pages_dist_jquery.resizableColumns.js" />
@@ -110,11 +76,6 @@
       <SOURCES />
     </library>
     <library name="jquery.touchSwipe" type="javaScript">
-      <properties>
-        <sourceFilesUrls>
-          <item url="file://$USER_HOME$/.IntelliJIdea14/system/extLibs/http_cdnjs.cloudflare.com_ajax_libs_jquery.touchswipe_1.6.9_jquery.touchSwipe.js" />
-        </sourceFilesUrls>
-      </properties>
       <CLASSES>
         <root url="file://$USER_HOME$/.IntelliJIdea14/system/extLibs/http_cdnjs.cloudflare.com_ajax_libs_jquery.touchswipe_1.6.9_jquery.touchSwipe.js" />
       </CLASSES>
@@ -122,11 +83,6 @@
       <SOURCES />
     </library>
     <library name="moment-with-locales" type="javaScript">
-      <properties>
-        <sourceFilesUrls>
-          <item url="file://$USER_HOME$/.IntelliJIdea14/system/extLibs/http_cdnjs.cloudflare.com_ajax_libs_moment.js_2.10.6_moment-with-locales.js" />
-        </sourceFilesUrls>
-      </properties>
       <CLASSES>
         <root url="file://$USER_HOME$/.IntelliJIdea14/system/extLibs/http_cdnjs.cloudflare.com_ajax_libs_moment.js_2.10.6_moment-with-locales.js" />
       </CLASSES>
@@ -134,11 +90,6 @@
       <SOURCES />
     </library>
     <library name="react" type="javaScript">
-      <properties>
-        <sourceFilesUrls>
-          <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/__cdnjs.cloudflare.com_ajax_libs_react_0.14.7_react.js" />
-        </sourceFilesUrls>
-      </properties>
       <CLASSES>
         <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/__cdnjs.cloudflare.com_ajax_libs_react_0.14.7_react.js" />
       </CLASSES>
@@ -146,11 +97,6 @@
       <SOURCES />
     </library>
     <library name="react-dom" type="javaScript">
-      <properties>
-        <sourceFilesUrls>
-          <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/__cdnjs.cloudflare.com_ajax_libs_react_0.14.7_react-dom.js" />
-        </sourceFilesUrls>
-      </properties>
       <CLASSES>
         <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/__cdnjs.cloudflare.com_ajax_libs_react_0.14.7_react-dom.js" />
       </CLASSES>
@@ -158,11 +104,6 @@
       <SOURCES />
     </library>
     <library name="react-redux" type="javaScript">
-      <properties>
-        <sourceFilesUrls>
-          <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/__cdnjs.cloudflare.com_ajax_libs_react-redux_4.4.1_react-redux.js" />
-        </sourceFilesUrls>
-      </properties>
       <CLASSES>
         <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/__cdnjs.cloudflare.com_ajax_libs_react-redux_4.4.1_react-redux.js" />
       </CLASSES>
@@ -170,11 +111,6 @@
       <SOURCES />
     </library>
     <library name="redux" type="javaScript">
-      <properties>
-        <sourceFilesUrls>
-          <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/__cdnjs.cloudflare.com_ajax_libs_redux_3.3.1_redux.js" />
-        </sourceFilesUrls>
-      </properties>
       <CLASSES>
         <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/__cdnjs.cloudflare.com_ajax_libs_redux_3.3.1_redux.js" />
       </CLASSES>
@@ -182,11 +118,6 @@
       <SOURCES />
     </library>
     <library name="typeahead.bundle" type="javaScript">
-      <properties>
-        <sourceFilesUrls>
-          <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/__cdnjs.cloudflare.com_ajax_libs_typeahead.js_0.11.1_typeahead.bundle.js" />
-        </sourceFilesUrls>
-      </properties>
       <CLASSES>
         <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/__cdnjs.cloudflare.com_ajax_libs_typeahead.js_0.11.1_typeahead.bundle.js" />
       </CLASSES>
