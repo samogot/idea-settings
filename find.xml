@@ -2,8 +2,6 @@
   <component name="FindSettings">
     <option name="customScope" value="Project 'rura-ite'" />
     <option name="defaultScopeName" value="Project 'rura-ite'" />
-    <option name="localRegularExpressions" value="true" />
-    <option name="LOCAL_REGULAR_EXPRESSIONS" value="true" />
     <option name="SEARCH_SCOPE" value="Project 'rura-ite'" />
   </component>
 </application>
