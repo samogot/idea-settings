@@ -68,7 +68,7 @@
     <general />
     <debuggers>
       <debugger id="javascript">
-        <configuration>
+        <configuration captureAsyncStackTraces="true">
           <custom-object-presentation />
         </configuration>
       </debugger>
