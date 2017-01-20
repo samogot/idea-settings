@@ -5,9 +5,10 @@
     <option name="PATTERN_ANNOTATION" value="org.intellij.lang.annotations.Pattern" />
     <option name="SUBST_ANNOTATION" value="org.intellij.lang.annotations.Subst" />
     <option name="RESOLVE_REFERENCES" value="true" />
-    <injection language="GenericSQL" injector-id="xml">
+    <injection language="SQL" injector-id="xml">
       <display-name>sql</display-name>
       <place><![CDATA[xmlTag().withLocalName(string().equalTo("sql")).withNamespace(string().equalTo("http://www.liquibase.org/xml/ns/dbchangelog"))]]></place>
+      <apply-to-subtags />
     </injection>
   </component>
 </application>
