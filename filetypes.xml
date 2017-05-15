@@ -2,12 +2,11 @@
   <component name="FileTypeManager" version="17">
     <extensionMap>
       <mapping pattern="paths" type="JavaScript" />
+      <mapping ext="bib" type="LaTeX file" />
       <mapping pattern="CodeMirrorTextFrame" type="PLAIN_TEXT" />
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
-      <mapping ext="tex" type="PLAIN_TEXT" />
       <mapping ext="touch" type="PLAIN_TEXT" />
       <mapping pattern="FilterMapper" type="XML" />
-      <mapping ext="bib" type="LaTeX file" />
       <mapping ext="fnc" type="DBN-PSQL" />
       <mapping ext="pkb" type="DBN-PSQL" />
       <mapping ext="pkg" type="DBN-PSQL" />
