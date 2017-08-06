@@ -1,6 +1,7 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
+      <mapping pattern="ParserTestUtils" type="CLASS" />
       <mapping pattern="paths" type="JavaScript" />
       <mapping ext="bib" type="LaTeX file" />
       <mapping pattern="CodeMirrorTextFrame" type="PLAIN_TEXT" />
