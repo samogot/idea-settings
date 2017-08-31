@@ -7,8 +7,11 @@
       <mapping ext="bib" type="LaTeX file" />
       <mapping pattern="CodeMirrorTextFrame" type="PLAIN_TEXT" />
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
+      <mapping pattern=".eslintrc_codeclimate" type="PLAIN_TEXT" />
       <mapping ext="touch" type="PLAIN_TEXT" />
       <mapping pattern="FilterMapper" type="XML" />
+      <mapping pattern=".eslintrc-codeclimate" type="XML" />
+      <mapping pattern=".codeclimate.eslintrc" type="YAML" />
       <mapping ext="fnc" type="DBN-PSQL" />
       <mapping ext="pkb" type="DBN-PSQL" />
       <mapping ext="pkg" type="DBN-PSQL" />
