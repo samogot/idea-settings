@@ -6,6 +6,7 @@
       <mapping pattern="paths" type="JavaScript" />
       <mapping ext="bib" type="LaTeX file" />
       <mapping pattern="CodeMirrorTextFrame" type="PLAIN_TEXT" />
+      <mapping pattern=".screepsrc.example" type="PLAIN_TEXT" />
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
       <mapping pattern=".eslintrc_codeclimate" type="PLAIN_TEXT" />
       <mapping ext="touch" type="PLAIN_TEXT" />
