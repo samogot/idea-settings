@@ -90,6 +90,10 @@
           <option name="url" value="git@github.com:samogot/screeps-profiler.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="git@github.com:howtographql/graphql-java.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="$USER_HOME$/IDEAProjects" />
