@@ -3,6 +3,7 @@
     <extensionMap>
       <mapping ext="mwb" type="ARCHIVE" />
       <mapping pattern="ParserTestUtils" type="CLASS" />
+      <mapping pattern=".eslint" type="JSON" />
       <mapping pattern="paths" type="JavaScript" />
       <mapping ext="bib" type="LaTeX file" />
       <mapping pattern="CodeMirrorTextFrame" type="PLAIN_TEXT" />
