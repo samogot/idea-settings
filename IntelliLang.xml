@@ -1,5 +1,9 @@
 <application>
   <component name="LanguageInjectionConfiguration">
+    <injection language="SQL" injector-id="js">
+      <display-name>SQL</display-name>
+      <place><![CDATA[taggedString("SQL")]]></place>
+    </injection>
     <injection language="SQLite" injector-id="js">
       <display-name>sqlite</display-name>
       <place><![CDATA[jsLiteralExpression().and(jsArgument("run", 0))]]></place>
