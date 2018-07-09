@@ -114,6 +114,10 @@
           <option name="url" value="git@github.com:dennybritz/cnn-text-classification-tf.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="git@github.com:LightTag/BibSample.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="$USER_HOME$/IDEAProjects" />
