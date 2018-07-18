@@ -6,7 +6,7 @@
     </injection>
     <injection language="SQLite" injector-id="js">
       <display-name>sqlite</display-name>
-      <place><![CDATA[jsLiteralExpression().and(jsArgument("db_run", 0))]]></place>
+      <place><![CDATA[jsLiteralExpression().and(jsArgument("run", 0))]]></place>
     </injection>
     <injection language="JavaScript" injector-id="xml">
       <display-name>project-item/@*</display-name>
