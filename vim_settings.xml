@@ -1,8 +1,15 @@
 <application>
   <component name="VimSettings">
-    <state version="4" enabled="false" />
+    <state version="4" enabled="true" />
     <globalmarks />
-    <filemarks />
+    <filemarks>
+      <file name="$APPLICATION_CONFIG_DIR$/scratches/scratch.txt" timestamp="1537426632305">
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="5" column="2" />
+        <mark key="^" line="5" column="2" />
+        <mark key="." line="5" column="2" />
+      </file>
+    </filemarks>
     <jumps />
     <registers />
     <search>

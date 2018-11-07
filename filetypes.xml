@@ -1,14 +1,15 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
+      <mapping ext="klib" type="ARCHIVE" />
       <mapping ext="mwb" type="ARCHIVE" />
       <mapping pattern="ParserTestUtils" type="CLASS" />
       <mapping pattern=".eslint" type="JSON" />
       <mapping pattern="paths" type="JavaScript" />
       <mapping ext="bib" type="LaTeX file" />
+      <mapping pattern="CodeMirrorTextFrame" type="PLAIN_TEXT" />
       <mapping pattern=".eslintrc_codeclimate" type="PLAIN_TEXT" />
       <mapping pattern=".screepsrc.example" type="PLAIN_TEXT" />
-      <mapping pattern="CodeMirrorTextFrame" type="PLAIN_TEXT" />
       <mapping pattern="3" type="PLAIN_TEXT" />
       <mapping pattern="2" type="PLAIN_TEXT" />
       <mapping pattern="1" type="PLAIN_TEXT" />
