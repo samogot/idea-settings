@@ -1,4 +1,7 @@
 <application>
+  <component name="RelativeLineNumbersSettings">
+    <option name="enabled" value="false" />
+  </component>
   <component name="VimSettings">
     <state version="4" enabled="false" />
     <globalmarks />
@@ -15,7 +18,6 @@
         <mark key="^" line="5" column="2" />
         <mark key="." line="5" column="2" />
       </file>
-      <file name="$APPLICATION_PLUGINS_DIR$/python/helpers/pydev/pydevconsole.py" timestamp="1541755321478" />
     </filemarks>
     <jumps />
     <registers />
