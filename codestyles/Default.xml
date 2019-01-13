@@ -1,7 +1,10 @@
-<code_scheme name="Default">
-  <JSCodeStyleSettings>
+<code_scheme name="Default" version="173">
+  <JSCodeStyleSettings version="0">
     <option name="SPACE_BEFORE_FUNCTION_LEFT_PARENTH" value="false" />
   </JSCodeStyleSettings>
+  <TypeScriptCodeStyleSettings version="0">
+    <option name="SPACES_WITHIN_IMPORTS" value="true" />
+  </TypeScriptCodeStyleSettings>
   <codeStyleSettings language="JavaScript">
     <indentOptions>
       <option name="INDENT_SIZE" value="2" />
