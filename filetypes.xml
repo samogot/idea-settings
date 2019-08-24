@@ -7,6 +7,7 @@
       <mapping pattern=".eslint" type="JSON" />
       <mapping pattern="paths" type="JavaScript" />
       <mapping ext="bib" type="LaTeX file" />
+      <mapping pattern="ygt0" type="PLAIN_TEXT" />
       <mapping pattern="CodeMirrorTextFrame" type="PLAIN_TEXT" />
       <mapping pattern="zh" type="PLAIN_TEXT" />
       <mapping pattern=".eslintrc_codeclimate" type="PLAIN_TEXT" />
