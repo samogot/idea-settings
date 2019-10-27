@@ -3,6 +3,7 @@
     <option name="addedPositive">
       <list>
         <option value="'\x08\x00" />
+        <option value="dataset = {" />
       </list>
     </option>
   </component>
