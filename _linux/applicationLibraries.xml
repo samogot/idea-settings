@@ -1,5 +1,12 @@
 <application>
   <component name="libraryTable">
+    <library name="Bundled Protobuf Distribution">
+      <CLASSES />
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$APPLICATION_PLUGINS_DIR$/protobuf-jetbrains-plugin/lib/protobuf-java-3.6.1-sources.jar!/" />
+      </SOURCES>
+    </library>
     <library name="org.apache.ivy:ivy:2.4.0" type="repository">
       <properties maven-id="org.apache.ivy:ivy:2.4.0" />
       <CLASSES>
