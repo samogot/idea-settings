@@ -17,6 +17,7 @@
       <mapping pattern="ygt10" type="PLAIN_TEXT" />
       <mapping pattern="zh" type="PLAIN_TEXT" />
       <mapping pattern=".eslintrc_codeclimate" type="PLAIN_TEXT" />
+      <mapping ext="mp3" type="PLAIN_TEXT" />
       <mapping ext="touch" type="PLAIN_TEXT" />
       <mapping ext="tsv" type="PLAIN_TEXT" />
       <mapping pattern="FilterMapper" type="XML" />
