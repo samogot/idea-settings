@@ -1,0 +1,5 @@
+<application>
+  <component name="CsvEditorSettings">
+    <option name="HIGHTLIGHT_TAB_SEPARATOR" value="false" />
+  </component>
+</application>
