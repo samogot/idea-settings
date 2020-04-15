@@ -19,6 +19,7 @@
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
       <mapping ext="mp3" type="PLAIN_TEXT" />
       <mapping ext="touch" type="PLAIN_TEXT" />
+      <mapping ext="textpb" type="PLAIN_TEXT" />
       <mapping pattern="FilterMapper" type="XML" />
       <mapping pattern=".eslintrc-codeclimate" type="XML" />
       <mapping pattern=".codeclimate.eslintrc" type="YAML" />
